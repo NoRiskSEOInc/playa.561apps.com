@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+    <name>playa_location</name>
+	<version>1.0</version>
+	<creationDate>18/08/2014</creationDate>
+    <author>Carlos Basto</author>
+    <authorEmail>cbasto@e-travelsolution.com</authorEmail>
+    <copyright>Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0</version>
+    <description>TPL_PLAYARS_XML_DESCRIPTION</description>
+	<files>
+		<folder>css</folder>
+		<folder>fonts</folder>		
+		<folder>img</folder>
+		<folder>js</folder>		
+		<filename>apple-touch-icon-precomposed.png</filename>	
+		<filename>favicon.ico</filename>		
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<positions>
+		<position>HeaderBuscador</position>
+		<position>HeaderLogo</position>
+		<position>HeaderMenu</position>		
+		<position>MegaMenu</position>		
+		<position>HeaderSubmenu</position>
+		
+		<position>Slideshow</position>
+		
+		<position>SliderChat</position>
+		<position>SliderBannerPromo</position>
+		<position>SliderControlIndicador</position>
+		<position>SliderFoto</position>
+		<position>SliderControlPrevNext</position>
+				
+		<position>HeaderResorLogo</position>
+		<position>HeaderResortMenu</position>
+		<position>RightContador</position>
+		<position>RightModulos</position>
+		<position>RightFormulario</position>
+		<position>Rightbodas</position>
+		<position>LeftSocial</position>
+		<position>Formularios</position>
+		<position>LeftRotador</position>
+		<position>LeftCallout</position>
+		<position>LeftItemSuites</position>
+		<position>LeftTour</position>
+		
+		<position>BelowContent</position>	
+		
+		<!-- INICIO DE POSICIONES PARA PAGINA GALERIA -->
+		<position>RotadorGaleria</position>
+		<!-- FIN DE POSICIONES PARA PAGINA GALERIA -->		
+		
+		
+		<!-- INICIO DE POSICIONES PARA PAGINA GALERIA -->
+		<position>listResort</position>
+		<!-- FIN DE POSICIONES PARA PAGINA GALERIA -->				
+		
+		<position>RightModulos2</position>
+		<position>LeftModulos</position>
+		<position>FullWidthBottom</position>
+		<position>Rotador</position>
+		<position>MainBottom</position>
+		
+		<position>FooterModulosTop</position>
+		<position>FooterMenu</position>	
+		<position>FooterCopyRight</position>		
+	</positions>
+</extension>
+
+
+
