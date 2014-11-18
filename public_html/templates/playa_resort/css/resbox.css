@@ -1,0 +1,83 @@
+.etWContainer { width:100%;  display:inline-block; overflow:hidden; margin:0px; padding:0px; font-size:12px;  }
+.etWContainer .etWtabs { display:inline-block; width:100%; text-align:left !important;  font-size: 14px;}
+.etWContainer .etWtabs input { margin:1.5%; display: inline-block; cursor: pointer; outline: none; }
+.etWContainer .etWtabs label { color: #474747; margin: 5px; cursor: pointer; outline: none; }
+label { display: inline-block; max-width: 100%; margin-bottom: 5px; font-weight: bold; }
+
+
+.etWContainer .etWforms { display:inline-block; width:100%;  border-top: none; }
+#formahotel, #formapackage { font-size: 12px; padding: 5% 5% 10% 5% ;}
+.etWtabs .paquete { margin-right: 20px; } 
+
+.etWContainer .etWforms form { width:100%;  display:inline-block; }
+.etWContainer .etWforms form .etWHide { display:none; }
+
+
+.etWContainer .etWforms form .etWrow { width:100%; /* float:left; */ overflow:hidden; margin-bottom:10px; display:inline-block; }
+.etWContainer .etWforms form .etWrow label { width:100%; height:18px; line-height:14px; font-weight:bold; display:inline-block; /* float:left; */  margin-bottom:2px; }
+.etWContainer .etWforms form .etWrow2 { width:100%; float:left; overflow:hidden; margin-bottom:10px; position:relative; }
+.etWContainer .etWforms form .etWrow2 label { width:100%; height:18px; line-height:14px; font-weight:bold; display:inline-block; float:left; margin-bottom:2px; }
+.etWContainer .etWforms form .cal { display:inline-block; float:left; width:88%; height:24px; line-height:24px; /* color:#666;  font-size:11px; */ text-indent:5px; border: 1px solid #DEDEDE; cursor:pointer; margin-right:4px; }
+.ui-datepicker-trigger{ opacity: 0; filter: alpha(opacity=0); position:absolute; top:20px; right:0px; z-index:2;  width:25px; height:25px; cursor:pointer;}
+.iconcalendar{  position:absolute; top:20px; right:0px;  background:url(../img/reservations-date-icon.jpg) no-repeat scroll 0px 0px transparent; width:25px; height:25px; cursor:pointer;}
+
+
+
+.etWContainer .etWforms form #EtDestinyHtl, .etWContainer .etWforms form #EtCityOrig, .etWContainer .etWforms form #EtDestinyPkl, .etWContainer .etWforms form #EtCityOrigFL, .etWContainer .etWforms form #EtDestinyFL, .etWContainer .etWforms form #EtHotel, .etWContainer .etWforms form #cityco, .etWContainer .etWforms form .cityc { display:inline-block; float:left; width:100%; height:24px; line-height:24px; /* color:#666; */ font-size:12px;  text-indent:5px; border: 1px solid #DEDEDE;  }
+
+.etWContainer .etWforms form .etWrow .etWheader { width:100%; height:18px; line-height:18px; float:left; }
+.etWContainer .etWforms form .etWrow .etWheader .rom { float:left; display:inline-block; height:18px; line-height:18px; width:45px; }
+.etWContainer .etWforms form .etWrow .etWheader .ads { float:left; display:inline-block; height:18px; line-height:18px; /* margin-left:73px; */ margin-left:41%; width:39px; }
+.etWContainer .etWforms form .etWrow .etWheader  .chi { float:left; display:inline-block; height:18px; line-height:18px; /* margin-left:14px; */ margin-left:4%; width:49px; }
+.etWContainer .etWforms form .etWrow .rm {  float:left; }
+.etWContainer .etWforms form .etWrow .etWRoom { float:right; display:inline-block; width:175px; margin-bottom:10px; }
+.etWContainer .etWforms form .etWrow .etWRoomF { float:left; display:inline-block; width:172px; }
+.etWContainer .etWforms form .etWrow .etWRoom>span { width:60px; float:left; display:inline-block; height:22px; line-height:22px; text-indent:7px; }
+.etWContainer .etWforms form .etWrow .etWRoom .etWPersons { float:left; margin-left:15px; }
+.etWContainer .etWforms form .etWrow .etWRoomF .etWPersons { float:left; margin-left:35px; }
+.etWContainer .etWforms form .etWrow .etWRoomF .adl { margin-left:0px; }
+.etWContainer .etWforms form .etWrow .etHe { width:100%;  line-height:22px; font-size:11px; font-weight:bold; float:left; }
+.etWContainer .etWforms form .etWrow .etWAge { width:215px; float:left; display:inline-block; margin-bottom:7px; }
+.etWContainer .etWforms form .etWrow .etWAge label { font-weight:normal; color:#666; }
+.etWContainer .etWforms form .etWrow .etWAge .age-select { float:left; margin-left:15px; }
+.etWContainer .etWforms form .etWrow .etWAge .ones { margin-left:0px; }
+#Room2,#Room3,#AgeC,#AgeC .age-select,#Age1,#Age2,#Age3,#RoomPk2,#RoomPk3,#AgePkC ,#AgePkC .age-select, #AgePk1,#AgePk2,#AgePk3,#AgeFLC , #AgeFLC .age-select, #AgeFL1{ display:none; } 
+.etWContainer .etWforms form .button { text-align:center; width:100%; /* height:31px; */ } 
+.bootom { -moz-user-select: none;    background-image: none;    border: 1px solid transparent;    border-radius: 4px;    cursor: pointer;    display: inline-block;    font-size: 14px;    font-weight: normal;    line-height: 1.42857;    margin-bottom: 0;    padding: 6px 12px;    text-align: center;    vertical-align: middle;   white-space: nowrap; } 
+.bootom { background-clip: padding-box;    background-color: #00457c;    border-radius: 6px;    color: #ffffff;    font-family: 'Open Sans','Helvetica Neue',Arial,Helvetica,sans-serif;    font-size: 12px;    font-weight: 300;    padding: 8px 16px; text-transform: uppercase; }
+.bootom:hover { text-shadow: 1px 1px  #333333; }
+
+
+.etWContainer .etWSelect {position: relative; display:inline-block;}
+.etWContainer .etWSelect * {top: 0; left: 0; cursor: pointer;}
+.etWContainer .etWSelect, .etWContainer .etWSelect select, .etWContainer .etWSelect span { /* color:#666; font-family: Arial,Helvetica,sans-serif; font-size:11px; */ text-indent: 5px;}
+.etWContainer .etWSelect select { opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0);  position: absolute; z-index: 5; }
+.etWContainer .etWSelect span {display:inline-block; position: absolute; z-index: 4; background: #ffffff url('../img/select.png') no-repeat center right ;border: 1px solid #DEDEDE;}
+
+.etWContainer .etWSmall, .etWContainer .etWSmall select, .etWContainer .etWSmall span {width: 40px; height: 24px; line-height: 24px;} 
+/* .etWContainer .etWSmall {width: 20%; height: 24px; line-height: 24px;} 
+.etWContainer .etWSmall select, .etWContainer .etWSmall span { width: 100%; height: 24px; line-height: 24px;} */
+/* .etWContainer .etWSmall select { width:100%;}*/
+.etWContainer .etWSmall span {width: 40px; height: 24px; line-height: 24px;} 
+
+
+.etWContainer .etWLarge, .etWContainer .etWLarge select, .etWContainer .etWLarge span {width: 100%; height: 24px; line-height: 24px;}
+.etWContainer .etWLarge span {width: 100%; height: 24px; line-height: 24px;}
+
+
+.etWContainer .etWMedium, .etWContainer .etWMedium select {width: 106px; height: 26px; line-height: 26px;}
+.etWContainer .etWMedium span {width: 104px; height: 24px; line-height: 26px;}
+
+
+@media all and (max-width: 950px){
+.etWContainer .etWforms form .etWrow .etWheader .ads { margin-left:18% ;}
+}
+@media all and (max-width: 899px){
+.etWContainer .etWforms form .etWrow .etWheader .ads { margin-left:10% ;}
+}
+@media all and (max-width: 870px){
+.etWContainer .etWforms form .etWrow .etWheader .ads { margin-left:10% ;}
+.etWContainer .etWforms form .etWrow .etWRoom, .etWContainer .etWforms form .etWrow .etWRoom>span{ width: 100% ; }
+.etWContainer .etWforms form .etWrow .etWRoom .adl { margin-left:32% ;}
+}
+
