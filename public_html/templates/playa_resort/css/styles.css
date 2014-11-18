@@ -421,6 +421,10 @@ background: #CCC !important;
 margin-left: 2px;
 }
 
+.home-brand-icons a img {
+  width: 22px;
+}
+
 
 
 /* Sidebar */
