@@ -10,7 +10,7 @@
 
 	<!-- Add to homescreen for Chrome on Android -->
 	<meta name="mobile-web-app-capable" content="yes"/>
-	<link rel="icon" sizes="196x196" href="templates/playa_location/img/touch/chrome-touch-icon-196x196.png"/>
+	<link rel="icon" sizes="196x196" href="templates/playaresorts/img/touch/chrome-touch-icon-196x196.png"/>
 
 	<!-- Add to homescreen for Safari on iOS -->
 	<meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -18,7 +18,7 @@
 	<meta name="apple-mobile-web-app-title" content="Playa Resorts"/>
 
 	<!-- Tile icon for Win8 (144x144 + tile color) -->
-	<meta name="msapplication-TileImage" content="templates/playa_location/img/touch/ms-touch-icon-144x144-precomposed.png"/>
+	<meta name="msapplication-TileImage" content="templates/playaresorts/img/touch/ms-touch-icon-144x144-precomposed.png"/>
 	<meta name="msapplication-TileColor" content="#00396b"/>
 
 
@@ -32,19 +32,19 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:200' rel='stylesheet' type='text/css'>
  
-	<link rel="stylesheet"  href="templates/playa_location/css/social.css">
-	<link rel="stylesheet"  href="templates/playa_location/css/owl.carousel.css" />
-	<link rel="stylesheet"  href="templates/playa_location/css/styles.css" />
-	<link rel="stylesheet"  href="templates/playa_location/form/cssformulario.css" />
+	<link rel="stylesheet"  href="templates/playaresorts/css/social.css">
+	<link rel="stylesheet"  href="templates/playaresorts/css/owl.carousel.css" />
+	<link rel="stylesheet"  href="templates/playaresorts/css/styles.css" />
+	<link rel="stylesheet"  href="templates/playaresorts/form/cssformulario.css" />
 		
 	<!-- ACTIVADOR DE JAVA SCRIPT  -->
 	<script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
-	<script src="templates/playa_location/js/lib/jquery-1.10.2.min.js"></script>
-	<script src="templates/playa_location/js/lib/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="templates/playaresorts/js/lib/jquery-1.10.2.min.js"></script>
+	<script src="templates/playaresorts/js/lib/jquery-ui-1.10.3.custom.min.js"></script>
     <!-- FIN DEL ACTIVADOR DE JAVA SCRIPT -->	
   
     <!-- Countdown -->
-	<script src="templates/playa_location/js/countdown.js"></script>
+	<script src="templates/playaresorts/js/countdown.js"></script>
 
 	<script type="text/javascript">
 
@@ -306,7 +306,7 @@
 	  <div class="row-fluid">	  
 		<jdoc:include type="modules" name="FooterModulosTop" /> <!-- POSICION PARA MODULOS DE FORMULARIO Y REDES SOCIALES DEL FOOTER --> 	  
 	  </div>
-	</div>
+	</div>dcdc
 	<div class="container-fluid">
 	  <div class="row-fluid bottom-copyright">	
 		<p><jdoc:include type="modules" name="FooterMenu" /></p>	  <!-- POSICION PARA MENU DEL FOOTER --> 
@@ -318,16 +318,16 @@
 
 	</footer>  
 
-		<script src="templates/playa_location/js/bootstrap/collapse.js"></script>   
-		<script src="templates/playa_location/js/bootstrap/carousel.js"></script>  
-		<script src="templates/playa_location/js/bootstrap/dropdown.js"></script>
-		<script src="templates/playa_location/js/lib/owl.carousel.js"></script>
-		<script src="templates/playa_location/js/lib/jquery.countdown.js"></script>
-		<script src="templates/playa_location/form/formulario.js"></script>
-		<script src="templates/playa_location/js/main.js"></script>  
-		<script src="templates/playa_location/js/gallery.js"></script>
-		<script src="templates/playa_location/js/homepage.js"></script> 
-		<script src="templates/playa_location/js/funciones.js"></script>			
+		<script src="templates/playaresorts/js/bootstrap/collapse.js"></script>   
+		<script src="templates/playaresorts/js/bootstrap/carousel.js"></script>  
+		<script src="templates/playaresorts/js/bootstrap/dropdown.js"></script>
+		<script src="templates/playaresorts/js/lib/owl.carousel.js"></script>
+		<script src="templates/playaresorts/js/lib/jquery.countdown.js"></script>
+		<script src="templates/playaresorts/form/formulario.js"></script>
+		<script src="templates/playaresorts/js/main.js"></script>  
+		<script src="templates/playaresorts/js/gallery.js"></script>
+		<script src="templates/playaresorts/js/homepage.js"></script> 
+		<script src="templates/playaresorts/js/funciones.js"></script>			
 	    <script type="text/javascript">
 		  function loadPageVar (sVar, sParams) {   // MDN xD
 			  return decodeURI(sParams.replace(new RegExp("^(?:.*[&\\?]" + encodeURI(sVar).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
